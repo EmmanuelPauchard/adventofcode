@@ -7,7 +7,9 @@ class AdventOfCode:
         self.name = name
 
     def run(self):
-        print(f"Running AdventOfCode {self.name}: {self.solve()}")
+        res = self.solve()
+        print(f"Running AdventOfCode {self.name}: {res}")
+        return res
 
     def solve(self):
         """
